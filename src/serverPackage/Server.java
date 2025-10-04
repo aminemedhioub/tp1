@@ -15,7 +15,7 @@ public class Server {
             System.out.println("client est connecte");
             clientSocket.close();
             serverSocket.close();
-            System.out.println("Connexion fermée.");
+            System.out.println("Connexion fermée");
         } catch (IOException e) {
             e.printStackTrace();
         }
