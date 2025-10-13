@@ -34,7 +34,7 @@ public class Client {
                     int result = dis.readInt();
                     System.out.println("Résultat reçu : " + result);
                 } else {
-                    System.out.println("Communication arrêtée.");
+                    System.out.println("Communication arrêtée");
                 }
 
             } while (x != 0);
